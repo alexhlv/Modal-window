@@ -1,0 +1,107 @@
+.my-btn {
+    outline: none;
+}
+
+.my-btn,
+.my-modal__header {
+    background-color: #ffbb34;
+    color: #fff;
+}
+
+.my-project .my-btn,
+.my-btn:hover,
+.my-btn:focus,
+.my-btn:active, {
+    outline: none;
+}
+
+.my-btn:hover,
+.my-btn:focus,
+.my-btn:active {
+    border: 1px solid #ffbb34;
+}
+
+.my-btn:hover,
+.my-btn:focus,
+.my-btn:active,
+.my-modal__header:hover,
+.my-modal__header:focus,
+.my-modal__header:active {
+    background-color: #fff;
+    color: #ffbb34;
+}
+
+.my-btn,
+.my-modal__header {
+    background-color: #ffbb34;
+    color: #fff;
+}
+
+.my-modal__body {
+    display: flex;
+    margin-bottom: 20px; 
+}
+
+.my-modal__body-contact {
+    justify-content: center;
+    padding-right: 20px;
+}
+
+.my-modal__body-contact div {
+    text-align: center;
+}
+
+.my-modal__name {
+    color: #7f767b;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.my-modal__pruf {
+    color: #aba9b6;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.my-modal__name,
+.my-modal__pruf {
+    padding-bottom: 5px;
+}
+
+.my-modal__content {
+    max-width: 69%;
+}
+
+.my-modal__text {
+    padding-bottom: 10px;
+}
+
+.my-modal__text_grey-light  {
+    color: #aba9b6;
+}
+
+.my-modal__text_grey-dark {
+    color: #7f767b;
+}
+
+.my-modal-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-true,
+.btn-false {
+    background-color: #ffbb34;
+    color: #fff;
+}
+
+.btn-true:hover,
+.btn-true:focus,
+.btn-true:active,
+.btn-false:hover,
+.btn-false:focus,
+.btn-false:active {
+    background-color: #fff;
+    color: #ffbb34;
+    border: 1px solid #ffbb34;
+}
